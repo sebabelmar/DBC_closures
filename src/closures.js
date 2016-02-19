@@ -150,33 +150,33 @@
 // // }, 10)
 
 // Encapsulation in closure
-// function animateIt(elementId){
-//   var elem = document.getElementById(elementId);
-//   var tick = 0;
-//   var timer = setInterval(function(){
-//     if (tick < 100){
-//       elem.style.padding = tick+"px";
-//       tick++;
+function animateIt(elementId){
+  var elem = document.getElementById(elementId);
+  var tick = 0;
+  var timer = setInterval(function(){
+    if (tick < 100){
+      elem.style.padding = tick+"px";
+      tick++;
 
-//       console.log(elementId)
-//       console.log(tick)
-//     }else{
-//       clearInterval(timer);
-//     }
-//   }, 10)
+      console.log(elementId)
+      console.log(tick)
+    }else{
+      clearInterval(timer);
+    }
+  }, 10)
 
-//   return console.log("I should have stop by now")
-// }
+  return console.log("I should have stop by now")
+}
 
 // Closures retain state of variables, is not a snapshot of the function
 // Execution
 
-// animateIt('move1');
-// animateIt('move2');
+animateIt('move1');
+animateIt('move2');
 
-// setTimeout(function(){
-//   animateIt('move3')
-// }, 3000)
+setTimeout(function(){
+  animateIt('move3')
+}, 3000)
 
 
 
