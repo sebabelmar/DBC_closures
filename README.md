@@ -17,5 +17,5 @@
 * [w3 School](http://www.w3schools.com/js/js_function_closures.asp)
 
 
-Seba Belmar
+Seba Belmar - Fence Lizard 2014
 si.belmar@gmail.com
