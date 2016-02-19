@@ -149,7 +149,7 @@
 // //   }
 // // }, 10)
 
-// // Encapsulation in closure
+// Encapsulation in closure
 // function animateIt(elementId){
 //   var elem = document.getElementById(elementId);
 //   var tick = 0;
@@ -168,8 +168,8 @@
 //   return console.log("I should have stop by now")
 // }
 
-// // Closures retain state of variables, is not a snapshot of the function
-// // Execution
+// Closures retain state of variables, is not a snapshot of the function
+// Execution
 
 // animateIt('move1');
 // animateIt('move2');

@@ -1,5 +1,5 @@
 // Execute funcs
-// window.onload = funcs;
+window.onload = funcs;
 
 function funcs() {
 
@@ -10,6 +10,7 @@ function funcs() {
 
     // Define as variables, array entries, or object properties:
     var func1 = function() {return "Can be assigned to Variables. -I'm an anonymous function."};
+
     var func2 = function lastName() {return "-I'm an function witn name in a variable."};
 
     var arrayOfVariables = [
@@ -20,6 +21,7 @@ function funcs() {
                            ];
 
     var invokeMeAsAMethod = function(){return this};
+
     var objectWithFunctions = {
         funcInObject1: function(){console.log("Yep, I'm executable from the object.")},
         funcInObject2: function lastName(){console.log("Yep, I'm executable from the object.")},
@@ -27,11 +29,13 @@ function funcs() {
     };
 
     // Functions can allow Object Oriended Programing
-    function Constructor (){
+    function Construct (){
         this.method1 = invokeMeAsAMethod
     }
 
-    var constructed = new Constructor();
+    Construct.prototype.otherAttr = function() { return "attr";}
+
+    var constructed = new Construct();
 
     (function(){console.log("STOP-1...")})()
     // #### First Stop ---
