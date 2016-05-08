@@ -1,5 +1,5 @@
 // Execute funcs
-// window.onload = funcs;
+window.onload = funcs;
 
 function funcs() {
 

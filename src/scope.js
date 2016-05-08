@@ -1,5 +1,5 @@
 // Trick to enable/disable funcs
-window.onload = scope;
+// window.onload = scope;
 
 function scope() {
 

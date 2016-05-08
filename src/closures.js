@@ -31,13 +31,13 @@
 
 
 
-// function addLocal() {
-//     var counter = 0;
-//     return counter += 1;
-// }
+function addLocal() {
+    var counter = 0;
+    return counter += 1;
+}
 
-// // #### Second Stop ---
-// (function(){console.log("STOP-2...")})()
+// #### Second Stop ---
+// (function(){console.log("STOP-2...")})();
 
 
 
