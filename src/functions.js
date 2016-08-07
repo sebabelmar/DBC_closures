@@ -1,5 +1,5 @@
 // Execute funcs
-window.onload = funcs;
+window.onload = function(){ funcs()}
 
 // JavaScript as a functional language.
 /*
@@ -13,11 +13,11 @@ function funcs() {
 
 	// Functions are first class-objects
 	var definition = {
-		'*': "They can be created via literals."
-		'*': "They can be assigned to variables, array entries, and properties of other objects."
-		'*': "They can be passed as arguments to functions."
-		'*': "They can be returned as values from functions."
-		'*': "They can possess properties that can be dynamically created and assigned."
+		i: "They can be created via literals.",
+		i: "They can be assigned to variables, array entries, and properties of other objects.",
+		i: "They can be passed as arguments to functions.",
+		i: "They can be returned as values from functions.",
+		i: "They can possess properties that can be dynamically created and assigned."
 	};
 
 
@@ -67,7 +67,8 @@ function funcs() {
 
 
 
-
+	// #### Stop ----
+	(function() {console.log("STOP...")})();
 
 
 
@@ -83,6 +84,8 @@ function funcs() {
 
 	// Executables:
 	// Look into the properties and functions of an array on the console by doing 'arrayOfVariables.'
+
+	// This is good spot to introduce the notion of callbacks
 
 	// var blockOfCode = function(element) {
 	// 	if(typeof element == "function")
@@ -113,7 +116,8 @@ function funcs() {
 
 
 
-
+	// #### Stop ----
+	(function() {console.log("STOP...")})();
 
 
 	//####  Functions values of the property of an object:
@@ -153,7 +157,8 @@ function funcs() {
 
 
 
-
+	// #### Stop ----
+	(function() {console.log("STOP...")})();
 
 
 
