@@ -1,5 +1,5 @@
 // Trick to enable/disable funcs
-// window.onload = scope;
+window.onload = scope;
 
 function scope() {
 
@@ -14,6 +14,10 @@ function scope() {
 
 	function addIt() {
 		// scope 'b'
+		console.log(arguments);
+
+		globalized = arguments;
+
 		parameterNumber = arguments[0];
 		return parameterNumber*outNumber;
 	}

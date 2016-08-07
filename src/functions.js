@@ -1,14 +1,23 @@
 // Execute funcs
 window.onload = funcs;
 
+// JavaScript as a functional language.
+/*
+Most importantly, in JavaScript, functions are first-class objects; 
+that is, they coexist with, and can be treated like, any other JavaScript object. 
+Just like the more mundane JavaScript data types, they can be referenced by variables, 
+declared with literals, and even passed as function parameters.
+*/
+
 function funcs() {
 
 	// Functions are first class-objects
 	var definition = {
-		1: '',
-		2: '',
-		3: '',
-		4: ''
+		'*': "They can be created via literals."
+		'*': "They can be assigned to variables, array entries, and properties of other objects."
+		'*': "They can be passed as arguments to functions."
+		'*': "They can be returned as values from functions."
+		'*': "They can possess properties that can be dynamically created and assigned."
 	};
 
 
@@ -62,6 +71,7 @@ function funcs() {
 
 
 
+
 	//####  Functions can be arrays elements
 
 	var arrayOfVariables = [
@@ -78,7 +88,7 @@ function funcs() {
 	// 	if(typeof element == "function")
 	// 	{element();}
 	// };
-	// arrayOfVariables.forEach(blockOfCode};
+	// arrayOfVariables.forEach(blockOfCode);
 
 	// In Ruby
 	// arr.each do |x|
