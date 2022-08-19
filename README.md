@@ -15,6 +15,7 @@
 * [JavasScript Ninnja](https://www.manning.com/books/secrets-of-the-javascript-ninja)
 * [Good Stackoverflow ](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 * [w3 School](http://www.w3schools.com/js/js_function_closures.asp)
+* [JavaScript Functions](https://www.scaler.com/topics/javascript/javascript-functions/)
 
 
 Seba Belmar - Fence Lizard 2014
